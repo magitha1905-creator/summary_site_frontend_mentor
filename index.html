@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <style>
+        body {
+           background:linear-gradient(rgb(147, 190, 245),white)
+        }
+
+
+        .main {
+            width: 430px;
+            height: 700px;
+            border-radius: 15px;
+            background-color: white;
+            text-align: center;
+            margin-top: 10%;
+            margin-left: 40%;
+            
+        }
+
+        img {
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .submain {
+            padding: 20px;
+            line-height: 1.5;
+
+        .sub {
+            margin: 2px 40px 30px;
+            padding: 4px;
+            border-radius: 10px;
+            background-color: rgba(220, 220, 220, 0.253);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .one {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .two{
+            padding: 1px;
+            margin: 30px;
+        }
+        .btn {
+            background-color: blue;
+            color: white;
+            width: 80%;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 20px lightsteelblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img src="./image hero.jpg" width="430px" height="200px" alt="image"/>
+        <div class="submain">
+            <h1>Order Summary</h1>
+            <p >You can now listen to millions of songs,<br>
+                audiobooks, and podcasts on any device<br>
+                anywhere you like!</p>
+        </div>
+        <div class="sub">
+
+            <div class="one">
+                <img src="./music icon.jpeg" width="50px"  style="position: relative; right: 20px;" alt="image"/>
+                <div>
+                    <h1>Annual Plan</h1>
+                    <p>$59.99/year</p>
+                </div>
+            </div>
+
+            <a href="#" style="text-decoration: underline; color: blue;">Change</a>
+        </div>
+        <div>
+            <button class="btn">Proceed to Payment</button>
+
+        </div>
+        <div class="two">
+        <a href="#" style="text-decoration: none; color: black;">Cancel Order</a></div>
+    </div>
+</body>
+
+</html>
